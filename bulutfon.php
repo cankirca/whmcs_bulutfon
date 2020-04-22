@@ -6,7 +6,7 @@ function gateway_bulutfon_name()
 }
 function gateway_bulutfon_config()
 {
-    $configarray = array("apikey" => array("FriendlyName" => "API Key", "Type" => "password", "Description" => "Please Enter your api key"), "title" => array("FriendlyName" => "Title", "Type" => "text", "Description" => "Please Enter your title"));
+    $configarray = array("apikey" => array("FriendlyName" => "API anahtari", "Type" => "password", "Description" => "Lutfen API anahtarinizi giriniz"), "title" => array("FriendlyName" => "SMS Basligi", "Type" => "text", "Description" => "Bulutfon panelinizde tanimli SMS basligini giriniz"));
     return $configarray;
 }
 function gateway_bulutfon_send($params)
